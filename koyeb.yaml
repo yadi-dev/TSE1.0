@@ -1,0 +1,7 @@
+name: tse1-bot
+build:
+  steps:
+    - go build -o bot main.go
+
+run:
+  cmd: ./bot
