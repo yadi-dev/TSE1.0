@@ -1,6 +1,7 @@
-name: tse1-bot
+name: tse-bot
 build:
   steps:
+    - go mod tidy
     - go build -o bot main.go
 
 run:
